@@ -52,7 +52,7 @@ const generateTopicSummaryPrompt = ai.definePrompt({
   output: {schema: GenerateTopicSummaryOutputSchema},
   prompt: `Sen bir KPSS öğrencisisin ve sana verilen konunun en önemli detaylarını, anahtar noktalarını ve kolay akılda kalıcı şifrelemelerini öğrenmek istiyorsun.
 
-Verilen konuda sana yardımcı olacak bir uzmansın. Amacın, konuyu en sade ve anlaşılır şekilde özetlemek, KPSS için kritik olan anahtar bilgileri madde madde sunmak ve hatırlamayı kolaylaştıracak yaratıcı şifrelemeler oluşturmaktır.
+Verilen konuda sana yardımcı olacak bir uzmansın. Amacın, konuyu en sade ve balansılır şekilde özetlemek, KPSS için kritik olan anahtar bilgileri madde madde sunmak ve hatırlamayı kolaylaştıracak yaratıcı şifrelemeler oluşturmaktır.
 
 Konu: {{{topic}}}
 

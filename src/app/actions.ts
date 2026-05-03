@@ -1,13 +1,8 @@
-
 'use server';
 
 import {
   generateTopicSummary,
   GenerateTopicSummaryInput,
-} from '@/ai/flows/generate-topic-summary';
-import {
-  generateMnemonicHint,
-  GenerateMnemonicHintInput,
 } from '@/ai/flows/generate-topic-summary';
 import {
   generateQuiz,
@@ -32,8 +27,6 @@ export async function getMnemonicHintAction(input: { topic: string; text: string
   if (!parsedInput.success) {
     throw new Error('Invalid input');
   }
-  // This uses a helper in generateTopicSummary flow or a specific one if defined
-  // For consistency, ensuring the action exists
   const { generateMnemonicHint } = await import('@/ai/flows/generate-mnemonic-hint');
   return await generateMnemonicHint(parsedInput.data);
 }

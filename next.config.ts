@@ -1,4 +1,3 @@
-
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
@@ -32,28 +31,7 @@ const nextConfig: NextConfig = {
       '6000-firebase-studio-1777488117354.cluster-2nmnojxdmnfh2vwda4kd7uoumu.cloudworkstations.dev',
       '9000-firebase-studio-1777488117354.cluster-2nmnojxdmnfh2vwda4kd7uoumu.cloudworkstations.dev'
     ]
-  },
-
-  webpack: (config, { isServer }) => {
-    if (!isServer) {
-      config.resolve.fallback = {
-        ...config.resolve.fallback,
-        fs: false,
-        net: false,
-        tls: false,
-        child_process: false,
-        perf_hooks: false,
-        path: false,
-        crypto: false,
-        os: false,
-        stream: false,
-        http: false,
-        https: false,
-        zlib: false,
-      };
-    }
-    return config;
-  },
+  }
 };
 
 export default nextConfig;
