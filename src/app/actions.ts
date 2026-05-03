@@ -8,6 +8,9 @@ import {
   generateQuiz,
   GenerateQuizInput,
 } from '@/ai/flows/generate-quiz';
+import {
+  generateMnemonicHint,
+} from '@/ai/flows/generate-mnemonic-hint';
 import { z } from 'zod';
 
 const topicSummarySchema = z.object({ topic: z.string() });
@@ -27,7 +30,6 @@ export async function getMnemonicHintAction(input: { topic: string; text: string
   if (!parsedInput.success) {
     throw new Error('Invalid input');
   }
-  const { generateMnemonicHint } = await import('@/ai/flows/generate-mnemonic-hint');
   return await generateMnemonicHint(parsedInput.data);
 }
 
