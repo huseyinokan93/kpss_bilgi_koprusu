@@ -1,3 +1,4 @@
+
 import { subjects } from '@/lib/data';
 import { notFound } from 'next/navigation';
 import TopicContent from './components/topic-content';
@@ -16,7 +17,12 @@ export async function generateStaticParams() {
     const params: { subject: string; topic: string; }[] = [];
     subjects.forEach(subject => {
         subject.topics.forEach(topic => {
-            params.push({ subject: subject.id, topic: encodeURIComponent(topic.name) });
+            // Next.js static params should be the raw string.
+            // Manuel encodeURIComponent removed to let Next.js handle character mapping.
+            params.push({ 
+                subject: subject.id, 
+                topic: topic.name 
+            });
         });
     });
     return params;
@@ -24,9 +30,15 @@ export async function generateStaticParams() {
 
 export default async function TopicPage({ params }: TopicPageProps) {
   const { subject: subjectId, topic: topicName } = await params;
+  
+  // Some environments pass encoded params, some don't. Decoding for safety.
   const decodedTopic = decodeURIComponent(topicName);
   const subject = subjects.find((s) => s.id === subjectId);
-  const topicData = subject?.topics.find((t) => t.name === decodedTopic);
+  
+  // Robust lookup: check both raw and decoded values
+  const topicData = subject?.topics.find((t) => 
+    t.name === decodedTopic || t.name === topicName
+  );
   
   if (!subject || !topicData) {
     notFound();
@@ -37,13 +49,13 @@ export default async function TopicPage({ params }: TopicPageProps) {
   return (
     <div className="space-y-8">
       <div>
-        <h1 className="text-4xl font-bold tracking-tight font-headline">{decodedTopic}</h1>
+        <h1 className="text-4xl font-bold tracking-tight font-headline">{topicData.name}</h1>
         <p className="mt-2 text-lg text-muted-foreground">
           {isMath && topicData.description ? topicData.description : 'Yapay zeka destekli özetler, anahtar noktalar ve şifrelemeler.'}
         </p>
       </div>
       
-      <TopicContent subject={subject.id} topic={decodedTopic} topicData={topicData} />
+      <TopicContent subject={subject.id} topic={topicData.name} topicData={topicData} />
 
       {!isMath && (
         <>
@@ -59,7 +71,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
             </p>
           </div>
 
-          <MnemonicGenerator topic={decodedTopic} />
+          <MnemonicGenerator topic={topicData.name} />
         </>
       )}
     </div>
