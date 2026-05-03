@@ -1,0 +1,70 @@
+{
+  "placeholderImages": [
+    {
+      "id": "home-hero",
+      "description": "A student studying at a desk with books and a laptop, looking focused and determined.",
+      "imageUrl": "https://picsum.photos/seed/kpss-study/600/400",
+      "imageHint": "student studying"
+    },
+    {
+      "id": "cografya-konum",
+      "description": "Map of Turkey showing its geographical location.",
+      "imageUrl": "https://picsum.photos/seed/turkey-location/400/225",
+      "imageHint": "turkey map"
+    },
+    {
+      "id": "cografya-iklim",
+      "description": "Climate map of Turkey.",
+      "imageUrl": "https://picsum.photos/seed/turkey-climate/400/225",
+      "imageHint": "climate map"
+    },
+    {
+      "id": "cografya-yer-sekilleri",
+      "description": "A beautiful landscape from Turkey representing its landforms.",
+      "imageUrl": "https://picsum.photos/seed/turkey-landscapes/400/225",
+      "imageHint": "mountain landscape"
+    },
+    {
+      "id": "cografya-nufus",
+      "description": "A crowd of people in a Turkish city, representing population.",
+      "imageUrl": "https://picsum.photos/seed/turkey-population/400/225",
+      "imageHint": "city crowd"
+    },
+    {
+      "id": "cografya-tarim",
+      "description": "A wheat field in Turkey, representing agriculture.",
+      "imageUrl": "https://picsum.photos/seed/turkey-agriculture/400/225",
+      "imageHint": "wheat field"
+    },
+    {
+      "id": "cografya-hayvancilik",
+      "description": "Sheep grazing on a pasture in Turkey.",
+      "imageUrl": "https://picsum.photos/seed/turkey-livestock/400/225",
+      "imageHint": "grazing sheep"
+    },
+    {
+      "id": "cografya-madenler",
+      "description": "A mining operation, representing Turkey's mineral resources.",
+      "imageUrl": "https://picsum.photos/seed/turkey-mining/400/225",
+      "imageHint": "coal mine"
+    },
+    {
+      "id": "cografya-sanayi",
+      "description": "An industrial factory, representing Turkey's industry.",
+      "imageUrl": "https://picsum.photos/seed/turkey-industry/400/225",
+      "imageHint": "factory industrial"
+    },
+    {
+      "id": "cografya-ulasim",
+      "description": "Hot air balloons in Cappadocia, representing tourism and transportation.",
+      "imageUrl": "https://picsum.photos/seed/turkey-tourism/400/225",
+      "imageHint": "hot-air balloons"
+    },
+    {
+      "id": "cografya-bolgeler",
+      "description": "A map showing the different regions of Turkey.",
+      "imageUrl": "https://picsum.photos/seed/turkey-regions/400/225",
+      "imageHint": "regional map"
+    }
+  ]
+}
