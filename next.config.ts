@@ -16,15 +16,6 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  experimental: {
-    serverActions: {
-      allowedOrigins: [
-        '*.cloudworkstations.dev',
-        '*.google.com',
-        'localhost:9002'
-      ],
-    },
-  },
 };
 
 export default nextConfig;

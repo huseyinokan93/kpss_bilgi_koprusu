@@ -37,20 +37,21 @@ export const subjects: Subject[] = [
         name: 'İslamiyet Öncesi Türk Tarihi', 
         imageId: 'tarih-islamiyet-oncesi',
         content: {
-          summary: "İslamiyet öncesi Türk tarihi, Orta Asya'nın sert bozkır ikliminde şekillenen, dinamik ve askeri temelli bir yapıya sahiptir. Türklerin ana yurdu Orta Asya olup; doğuda Khingan Dağları, batıda Hazar Denizi, kuzeyde Sibirya ve güneyde Hindukuş-Himalaya Dağları ile çevrilidir. Konar-göçer yaşam tarzı (bozkır kültürü), Türklerin dayanıklı, savaşçı ve teşkilatçı bir yapı kazanmasını sağlamıştır. Devlet yönetiminde 'Kut' inancı (hükümdarlığın Tanrı tarafından verildiğine inanılması) hakimdir. Kut kan yoluyla babadan oğula geçtiği için 'ülke hanedanın ortak malıdır' anlayışı benimsenmiş, bu da sık sık taht kavgalarına ve devletlerin kısa sürede bölünmesine yol açmıştır. Kurultay (Toy), devlet işlerinin görüşüldüğü meclistir ve son söz hükümdara (Kağan/Han) aittir, bu yönüyle danışma meclisi niteliğindedir. Sosyal yapı Oguş (aile), Urug (sülale), Boy (ok), Budun (millet) ve İl (devlet) hiyerarşisine dayanır.",
+          summary: "İslamiyet öncesi Türk tarihi, Orta Asya'nın sert bozkır ikliminde şekillenen, dinamik ve askeri temelli bir yapıya sahiptir. Türklerin ana yurdu Orta Asya olup; doğuda Khingan Dağları, batıda Hazar Denizi, kuzeyde Sibirya ve güneyde Hindukuş-Himalaya Dağları ile çevrilidir. Konar-göçer yaşam tarzı (bozkır kültürü), Türklerin dayanıklı, savaşçı ve teşkilatçı bir yapı kazanmasını sağlamıştır. Devlet yönetiminde 'Kut' inancı (hükümdarlığın Tanrı tarafından verildiğine inanılması) hakimdir. Kut kan yoluyla babadan oğula geçtiği için 'ülke hanedanın ortak malıdır' anlayışı benimsenmiş, bu da sık sık taht kavgalarına ve devletlerin kısa sürede bölünmesine yol açmıştır. Kurultay (Toy), devlet işlerinin görüşüldüğü meclistir ve son söz hükümdara (Kağan/Han) aittir, bu yönüyle danışma meclisi niteliğindedir. Sosyal yapı Oguş (aile), Urug (sülale), Boy (ok), Budun (millet) ve İl (devlet) hiyerarşisine dayanır. Türkler bu dönemde Gök Tanrı inancını benimsemiş, ahiret inancının bir göstergesi olarak ölülerini 'Kurgan' adı verilen mezarlara değerli eşyalarıyla gömmüşlerdir.",
           keyPoints: [
             "İskitler (Sakalar): Bilinen ilk Türk topluluğudur. En önemli hükümdarı Alp Er Tunga, kadın hükümdarı Tomris Hatun'dur. 'Bozkırın Kuyumcuları' olarak anılırlar.",
-            "Asya Hun Devleti: İlk teşkilatlı Türk devletidir. Merkezi Ötüken'dir (Toprak Ana). Mete Han dönemi en parlak zamandır; ilk kez Onlu Sistem kurulmuş ve Türk boyları tek bayrak altında toplanmıştır.",
+            "Asya Hun Devleti: İlk teşkilatlı Türk devletidir. Merkezi Ötüken'dir. Mete Han dönemi en parlak zamandır; ilk kez Onlu Sistem kurulmuş ve Türk boyları tek bayrak altında toplanmıştır.",
             "Kavimler Göçü (375): Balamir önderliğinde Avrupa'ya göç edilmiş, Roma İmparatorluğu ikiye ayrılmış ve Avrupa'da feodalite (derebeylik) ortaya çıkmıştır.",
-            "I. Göktürk Devleti: Türk adını siyasi bir isim olarak kullanan ilk devlettir. Bumin Kağan kurucusudur. İpek Yolu hakimiyeti için Sasanilerle iş birliği yaparak Akhunları yıkmışlardır.",
-            "II. Göktürk (Kutluk) Devleti: Kürşat Ayaklanması sonrası bağımsızlık kazanılmıştır. Türk tarihinin ilk yazılı belgeleri olan Orhun Yazıtları bu dönemde dikilmiştir.",
-            "Uygurlar: Bögü Kağan döneminde Maniheizm'i benimseyerek yerleşik hayata geçen ilk devlettir. Tarım, matbaa, kütüphane ve kalıcı mimari eserler bu dönemde başlamıştır."
+            "I. Göktürk Devleti: Türk adını siyasi bir isim olarak kullanan ilk devlettir. Bumin Kağan kurucusudur.",
+            "II. Göktürk (Kutluk) Devleti: Orhun Yazıtları (Türk tarihinin ilk yazılı belgeleri) bu dönemde Bilge Kağan, Kültigin ve Tonyukuk adına dikilmiştir.",
+            "Uygurlar: Yerleşik hayata geçen ilk Türk devletidir. Maniheizm etkisiyle savaşçılık özelliklerini kaybetmiş ancak tarım, sanat ve matbaa konusunda ilerlemişlerdir.",
+            "İnanışlar: Yuş (cennet), Tamu (cehennem), Kurgan (mezar), Balbal (mezar taşı)."
           ],
           mnemonics: [
-            "SOSYAL YAPI SIRALAMASI: O-U-B-B-İ (Oguş, Urug, Boy, Budun, İl).",
-            "METE HAN: 'On' numara sistem kurdu (Onlu Sistem).",
-            "UYGURLAR: 'Uygar' Türkler (Yerleşik hayat, matbaa, sanat).",
-            "KURULTAY ÜYELERİ: 'TAY' (Tarkan, Aygucı, Yabgu - Danışma ekibi gibi düşünün)."
+            "SOSYAL YAPI: O-U-B-B-İ (Oguş -> Urug -> Boy -> Budun -> İl)",
+            "METE HAN: 'On'lu sistemin mucidi.",
+            "UYGURLAR: 'Uygar' Türkler (Matbaa, kütüphane, yerleşik hayat).",
+            "HAZARLAR: Museviliği benimseyen tek Türk topluluğu (H-M)."
           ]
         },
         pastQuestions: [
@@ -68,20 +69,41 @@ export const subjects: Subject[] = [
         name: 'Osmanlı Devleti Kuruluş Dönemi', 
         imageId: 'tarih-osmanli-kurulus',
         content: {
-          summary: "1299-1453 yıllarını kapsayan bu dönemde Osmanlılar, bir uç beyliğinden imparatorluk yolunda devleşen bir güce dönüşmüştür. Başarısının sırrı; Bizans sınırında (uç beyliği) olması, balkanlardaki siyasi boşluk, Ahilerin desteği, İskan (yerleştirme) ve İstimalet (hoşgörü) politikalarıdır. Osman Bey döneminde ilk bakır para basılmış ve Bizans'a karşı ilk zafer (Koyunhisar) kazanılmıştır. Orhan Bey döneminde devlet teşkilatlanmış; ilk düzenli ordu (Yaya ve Müsellem), ilk medrese (İznik) ve Divan teşkilatı kurulmuştur. I. Murad dönemi ise imparatorluk temellerinin atıldığı; 'ülke padişah ve oğullarının malıdır' veraset değişikliğinin yapıldığı ve Yeniçeri Ocağı'nın kurulduğu dönemdir. Yıldırım Bayezid döneminde Anadolu Türk siyasi birliği büyük oranda sağlanmış ancak 1402 Ankara Savaşı ile devlet 'Fetret Devri'ne girerek dağılma tehlikesi atlatmıştır.",
+          summary: "1299-1453 yıllarını kapsayan bu dönemde Osmanlılar, bir uç beyliğinden imparatorluk yolunda devleşen bir güce dönüşmüştür. Başarısının sırrı; Bizans sınırında (uç beyliği) olması, balkanlardaki siyasi boşluk, Ahilerin desteği, İskan (yerleştirme) ve İstimalet (hoşgörü) politikalarıdır. Osman Bey döneminde ilk bakır para basılmış ve Bizans'a karşı ilk zafer (Koyunhisar) kazanılmıştır. Orhan Bey döneminde devlet teşkilatlanmış; ilk düzenli ordu (Yaya ve Müsellem), ilk medrese (İznik) ve Divan teşkilatı kurulmuştur. I. Murad döneminde 'Sultan' unvanı ilk kez kullanılmış, Yeniçeri Ocağı kurulmuş ve ülke 'Padişah ve oğullarının malıdır' anlayışı getirilerek merkezi otorite güçlendirilmiştir. Yıldırım Bayezid döneminde Anadolu Türk siyasi birliği büyük oranda sağlanmış ancak 1402 Ankara Savaşı ile devlet 'Fetret Devri'ne girerek dağılma tehlikesi atlatmıştır.",
           keyPoints: [
-            "Koyunhisar Savaşı (1302): Bizans Tekfurlarıyla yapılan ilk savaş ve ilk galibiyettir.",
-            "İskan Politikası: Fethedilen Rumeli topraklarına Anadolu'daki göçebe Türkmenlerin yerleştirilmesidir. Amaç bölgeyi Türkleştirmek ve kalıcı olmaktır.",
-            "İstimalet Politikası: Gayrimüslim halka gösterilen dinsel ve kültürel hoşgörüdür. Fetihlerin kalıcı olmasını sağlamıştır.",
-            "Sırpsındığı Savaşı: Haçlılarla yapılan ilk büyük savaştır (I. Murad dönemi).",
-            "I. Kosova Savaşı: İlk kez top kullanılmıştır (I. Murad).",
-            "Niğbolu Savaşı: Yıldırım Bayezid'e halife tarafından 'Sultan-ı İklim-i Rum' unvanı verilmiştir.",
-            "Çelebi Mehmed: Fetret Devri'ne son verdiği için devletin ikinci kurucusu kabul edilir."
+            "İskan Politikası: Fethedilen Rumeli topraklarına Anadolu'daki göçebe Türkmenlerin yerleştirilmesidir.",
+            "İstimalet Politikası: Gayrimüslim halka gösterilen dinsel ve kültürel hoşgörüdür.",
+            "Sırpsındığı Savaşı: Haçlılarla yapılan ilk büyük savaştır.",
+            "I. Kosova Savaşı: İlk kez top kullanılmıştır ve I. Murad savaş meydanında şehit edilmiştir.",
+            "Niğbolu Savaşı: Yıldırım Bayezid'e 'Sultan-ı İklim-i Rum' unvanı verilmiştir.",
+            "Çelebi Mehmed: Devletin ikinci kurucusu kabul edilir (Fetret Devri'ni bitirdiği için).",
+            "II. Kosova Savaşı: Balkanların kesin olarak Türk yurdu olduğunu kanıtlamıştır."
           ],
           mnemonics: [
-            "KURULUŞ PADİŞAHLARI: O-O-M-B-M-M (Osman, Orhan, Murad, Bayezid, Mehmed, Murad).",
-            "ANAYOL (Haçlı Savaşları): S-I-N-A-V (Sırpsındığı, I. Kosova, Niğbolu, Varna, II. Kosova).",
-            "ORHAN BEY: 'O'rganizasyon Beyi (Teşkilatlanma dönemi)."
+            "HAÇLI SAVAŞLARI: S-I-N-A-V (Sırpsındığı, I. Kosova, Niğbolu, Varna, II. Kosova)",
+            "ORHAN BEY: 'O'rganizasyon dönemi (İlk ordu, ilk medrese).",
+            "KURULUŞ PADİŞAHLARI: O-O-M-B-M-M (Osman, Orhan, Murad, Bayezid, Mehmed, Murad)"
+          ]
+        }
+      },
+      { 
+        name: 'Atatürk İlke ve İnkılapları', 
+        imageId: 'tarih-ataturk',
+        content: {
+          summary: "Atatürk ilkeleri; Türk İnkılabı'nın temelini oluşturan, birbirini tamamlayan ve çağdaşlaşmayı hedefleyen fikirlerdir. Temel ilkeler 6 tanedir: Cumhuriyetçilik (Milli Egemenlik), Milliyetçilik (Milli Birlik), Halkçılık (Eşitlik), Devletçilik (Ekonomi), Laiklik (Din ve Devlet Ayrımı) ve İnkılapçılık (Sürekli Yenilik). Cumhuriyetçilik ilkesi doğrudan halkın yönetime katılmasıyla ilgilidir (TBMM'nin açılması, Saltanatın kaldırılması). Milliyetçilik, Türk milletinin çıkarlarını her şeyin üstünde tutar ve ırkçı değildir (Türk Dil Kurumu, Kabotaj Kanunu). Halkçılık, toplumda hiçbir zümreye ayrıcalık tanınmamasıdır (Aşar vergisinin kaldırılması, Soyadı kanunu). Laiklik ise akıl ve bilimin rehber alınmasıdır (Halifeliğin kaldırılması, Tevhid-i Tedrisat).",
+          keyPoints: [
+            "Cumhuriyetçilik: Siyasi haklar, Seçim, Meclis, Egemenlik.",
+            "Milliyetçilik: 'Türk' kelimesi geçen kurumlar, Kabotaj Kanunu, Milli ekonomi.",
+            "Halkçılık: Eşitlik, Sosyal devlet, Kadınlara seçme seçilme hakkı.",
+            "Laiklik: Akıl, Bilim, Din ve vicdan hürriyeti, Tekke ve zaviyelerin kapatılması.",
+            "Devletçilik: Yatırım, Fabrika, Karma ekonomi, Bankalar (Sümerbank, Etibank).",
+            "İnkılapçılık: Batılılaşma, Modernleşme, Takvim-Saat-Ölçü değişiklikleri."
+          ],
+          mnemonics: [
+            "CUMHURİYETÇİLİK: Halkın 'O'yu (Siyasi katılım).",
+            "HALKÇILIK: 'Eşit' halk (Sınıfsız toplum).",
+            "MİLLİYETÇİLİK: 'Bizim' olan (Milli değerler).",
+            "LAİKLİK: 'Din' ve 'Akıl' (İnanç özgürlüğü)."
           ]
         }
       },
@@ -93,7 +115,6 @@ export const subjects: Subject[] = [
       { name: 'XX. Yüzyılda Osmanlı Devleti', imageId: 'tarih-osmanli-20yy' },
       { name: 'Kurtuluş Savaşı Hazirlik Dönemi', imageId: 'tarih-kurtulus-hazirlik' },
       { name: 'Kurtuluş Savaşı Muharebeler Dönemi', imageId: 'tarih-kurtulus-muharebe' },
-      { name: 'Atatürk İlke ve İnkılapları', imageId: 'tarih-ataturk' },
       { name: 'Çağdaş Türk ve Dünya Tarihi', imageId: 'tarih-cagdas' },
     ],
   },
@@ -106,19 +127,19 @@ export const subjects: Subject[] = [
         name: 'Türkiye\'nin Coğrafi Konumu', 
         imageId: 'cografya-konum',
         content: {
-          summary: "Türkiye, 36°-42° Kuzey paralelleri ile 26°-45° Doğu meridyenleri arasında yer alan, hem Asya hem de Avrupa kıtasında toprakları bulunan stratejik bir ülkedir. Coğrafi konum 'Matematik (Mutlak) Konum' ve 'Özel (Göreceli) Konum' olarak ikiye ayrılır. Matematik Konum; Türkiye'nin Kuzey Yarım Küre'de, Orta Kuşak'ta ve Yengeç Dönencesi'nin kuzeyinde olmasının getirdiği sonuçlardır. Örneğin; dört mevsimin belirgin yaşanması, cephe yağışlarının görülmesi ve Akdeniz iklim kuşağında olması matematik konumun sonucudur. Özel Konum ise; Türkiye'nin üç tarafının denizlerle çevrili olması, yüksekliğinin batıdan doğuya artması, yer altı kaynakları zenginliği ve transit ticaret yolları (boğazlar) üzerinde olması gibi kendine has özellikleridir.",
+          summary: "Türkiye, 36°-42° Kuzey paralelleri ile 26°-45° Doğu meridyenleri arasında yer alan, hem Asya hem de Avrupa kıtasında toprakları bulunan stratejik bir ülkedir. Coğrafi konum 'Matematik (Mutlak) Konum' ve 'Özel (Göreceli) Konum' olarak ikiye ayrılır. Matematik Konum; Türkiye'nin Kuzey Yarım Küre'de, Orta Kuşak'ta ve Yengeç Dönencesi'nin kuzeyinde olmasının getirdiği sonuçlardır. Örneğin; dört mevsimin belirgin yaşanması, cephe yağışlarının görülmesi ve Akdeniz iklim kuşağında olması matematik konumun sonucudur. Özel Konum ise; Türkiye'nin üç tarafının denizlerle çevrili olması, yükseltinin batıdan doğuya artması, transit ticaret yolları ve jeopolitik önemi ile ilgilidir.",
           keyPoints: [
-            "Kuzey-Güney Kuşuçumu Mesafe: 42-36 = 6 paralel x 111 km = 666 km'dir.",
-            "Doğu-Batı Zaman Farkı: 45-26 = 19 meridyen x 4 dk = 76 dakikadır.",
-            "Orta Kuşak Kanıtları: A-B-C-D (Akdeniz İklimi, Batı Rüzgarları, Cephe Yağışları, Dört Mevsim).",
-            "Güneyden Kuzeye Gidildikçe: Çizgisel hız azalır, yerçekimi artır, gölge boyu uzar, grup ve tan süresi uzar.",
-            "Aynı Anda Farklı Mevsim: Türkiye'nin yer şekilleri çeşitliliği ve kısa mesafede yükselti farkı (Özel Konum).",
-            "Baki Etkisi: Türkiye'de dağların güney yamaçları daha fazla ısınır (Yengeç Dönencesi kuzeyi olduğu için)."
+            "Kuşuçumu Mesafe: Kuzey-Güney arası 666 km (6 paralel farkı x 111 km).",
+            "Zaman Farkı: En doğu ve en batı arası 76 dakika (19 meridyen farkı x 4 dk).",
+            "Orta Kuşak Kanıtları: Akdeniz iklimi, Batı rüzgarları, Cephe yağışları, Dört mevsim.",
+            "Güneş Işınları: Türkiye'ye hiçbir zaman dik açıyla (90 derece) gelmez, çünkü dönenceler dışındadır.",
+            "Baki Etkisi: Dağların güney yamaçları daha sıcaktır ve daha çok yerleşmeye elverişlidir.",
+            "Özel Konum: Boğazlar, Maden çeşitliliği, Karasal iklim, Yükselti."
           ],
           mnemonics: [
             "ORTA KUŞAK: A-B-C-D (Akdeniz iklimi, Batı rüzgarları, Cephe yağışları, Dört mevsim).",
-            "SINIRLARIMIZ: S-H-I-G (Sinop-İnceburun, Hatay-Beysun, Iğdır-Dilucu, Gökçeada-Avlaka).",
-            "DENİZ SINIRLARI: En uzun kıyı Ege (girinti-çıkıntıdan dolayı), en uzun kıyı şeridi Karadeniz (düz hat olarak)."
+            "MATEMATİK KONUM: 'M'esafe ve 'M'eridyen.",
+            "ÖZEL KONUM: 'Ö'zgün ve 'Ö'nemli yerler (Boğazlar gibi)."
           ]
         },
         pastQuestions: [
@@ -128,7 +149,26 @@ export const subjects: Subject[] = [
           }
         ]
       },
-      { name: 'Türkiye\'nin İklimi ve Bitki Örtüsü', imageId: 'cografya-iklim' },
+      { 
+        name: 'Türkiye\'nin İklimi ve Bitki Örtüsü', 
+        imageId: 'cografya-iklim',
+        content: {
+          summary: "Türkiye'de iklim çeşitliliği fazladır; bunun temel sebepleri matematik konum (orta kuşak) ve özel konumdur (dağların uzanışı, yükselti, denizellik). Başlıca üç iklim tipi görülür: Akdeniz İklimi, Karadeniz İklimi ve Karasal İklim. Karadeniz iklimi her mevsim yağışlıdır ve bitki örtüsü ormandır. Akdeniz ikliminde yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır; bitki örtüsü makidir. Karasal iklim ise Türkiye'nin en geniş yayılış alanına sahip iklimidir; yazlar sıcak ve kurak, kışlar soğuk ve kar yağışlıdır; bitki örtüsü bozkırdır (step). Erzurum-Kars bölümünde ise Sert Karasal İklim görülür ve yaz yağışlarıyla yeşeren uzun boylu çayırlar (Alpin çayırlar) hakimdir.",
+          keyPoints: [
+            "Karadeniz İklimi: En çok yağışı Sonbaharda alır. Kimyasal çözünme fazladır.",
+            "Akdeniz İklimi: En çok yağışı Kışın alır. Terrosa topraklar (kırmızı) görülür.",
+            "İç Anadolu Karasal: En çok yağışı İlkbaharda alır (Kırkikindi yağışları).",
+            "Sert Karasal: En çok yağışı Yazın alır. Çernezyom (Kara Toprak) burada görülür.",
+            "Rüzgarlar: KayıpSakal (Kuzeyden Karayel-Yıldız-Poyraz, Güneyden Samyeli-Kıble-Lodos).",
+            "Maki Türleri: Zeytin, Zakkum, Defne, Mersin, Keçiboynuzu."
+          ],
+          mnemonics: [
+            "RÜZGARLAR: KA-YI-P SA-KAL (Karayel, Yıldız, Poyraz / Samyeli, Kıble, Lodos).",
+            "İÇ ANADOLU YAĞIŞI: İlkbaharda 'Kırk' gün ikindi vakti yağar (Kırkikindi).",
+            "YAĞIŞ REJİMİ 'e' HARFİ: Türkiye haritası üzerine küçük 'e' çizerseniz hangi mevsimde neresi yağış alır çıkar."
+          ]
+        }
+      },
       { name: 'Türkiye\'nin Yer Şekilleri', imageId: 'cografya-yer-sekilleri' },
       { name: 'Türkiye\'de Nüfus ve Yerleşme', imageId: 'cografya-nufus' },
       { name: 'Türkiye\'de Tarım', imageId: 'cografya-tarim' },
@@ -148,18 +188,19 @@ export const subjects: Subject[] = [
         name: 'Temel Hukuk Kavramları', 
         imageId: 'gk-hukuk',
         content: {
-          summary: "Hukuk; sosyal hayatı düzenleyen, maddi yaptırımlı (devlet gücüyle desteklenen) kurallar bütünüdür. Din, ahlak ve görgü kurallarından en büyük farkı devlet eliyle zorla uygulanabilir olmasıdır. Hukukun dalları Kamu Hukuku, Özel Hukuk ve Karma Hukuk olarak üçe ayrılır. Kamu hukuku devlet ile birey arasındaki asimetrik (devlet üstünlüğü) ilişkiyi düzenler (Örn: Ceza, Anayasa, Vergi). Özel hukuk ise eşit taraflar arasındaki ilişkileri düzenler (Örn: Medeni, Borçlar, Ticaret). Hukuk kurallarının hiyerarşisi 'Normlar Hiyerarşisi' olarak adlandırılır ve en üstte Anayasa bulunur. Alt basamaktaki bir kural üst basamaktaki kurala aykırı olamaz.",
+          summary: "Hukuk; sosyal hayatı düzenleyen, maddi yaptırımlı kurallar bütünüdür. Hukuk kurallarının din, ahlak ve görgü kurallarından en büyük farkı devlet gücüyle desteklenmesidir. Hukuk dalları Kamu Hukuku, Özel Hukuk ve Karma Hukuk olarak üçe ayrılır. Kamu hukukunda devlet ile birey arasında alt-üst ilişkisi vardır. Özel hukukta taraflar eşittir. Normlar hiyerarşisinde en üstte Anayasa bulunur, onu Kanunlar ve Milletlerarası Antlaşmalar izler. Hak ehliyeti sağ ve tam doğmak şartıyla ana rahmine düşüldüğü anda başlar; fiil ehliyeti ise ergin olmak, ayırt etme gücüne sahip olmak ve kısıtlı olmamak şartlarına bağlıdır.",
           keyPoints: [
-            "Normlar Hiyerarşisi: 1. Anayasa, 2. Kanun-Milletlerarası Antlaşma-OHAL CBK, 3. Cumhurbaşkanlığı Kararnamesi, 4. Yönetmelik.",
-            "Yaptırım Türleri: Ceza, Cebri İcra, Tazminat, Hükümsüzlük (Yokluk, Butlan, Tek Taraflı Bağlamazlık), İptal.",
-            "Hak Ehliyeti: Sağ ve tam doğmak şartıyla ana rahmine düştüğü anda başlar (Pasif ehliyet).",
-            "Fiil Ehliyeti: 1. Ergin olmak (18 yaş), 2. Ayırt etme gücüne sahip olmak, 3. Kısıtlı olmamak (Aktif ehliyet).",
-            "Kişilik: Tam ve sağ doğumla başlar, ölüm veya gaiplikle biter.",
-            "Yokluk: Hukuki işlemin kurucu unsurlarından birinin eksik olmasıdır (Örn: Resmi evlendirme memuru olmadan yapılan evlilik)."
+            "Normlar Hiyerarşisi: Anayasa > Kanun/OHAL CBK > CBK > Yönetmelik.",
+            "Kamu Hukuku: Anayasa, İdare, Ceza, Vergi, Devletler Genel.",
+            "Özel Hukuk: Medeni, Borçlar, Ticaret, Devletler Özel.",
+            "Yaptırım Türleri: Ceza, Cebri İcra, Tazminat, Hükümsüzlük, İptal.",
+            "Medeni Hukuk Alt Dalları: Kişiler, Aile, Miras, Eşya Hukuku.",
+            "Hak Ehliyeti: Pasif ehliyettir, herkes sahiptir.",
+            "Fiil Ehliyeti: Aktif ehliyettir, belirli şartlar gerektirir."
           ],
           mnemonics: [
-            "KAMU HUKUKU: V-İ-C-A-D-A-N (Vergi, İdare, Ceza, Anayasa, Devletler Genel, Arsa(İcra-İflas), Noterlik).",
             "ÖZEL HUKUK: M-B-T-D (Medeni, Borçlar, Ticaret, Devletler Özel).",
+            "MEDENİ HUKUK: K-A-M-E (Kişiler, Aile, Miras, Eşya).",
             "YAPTIRIMLAR: C-C-İ-T (Ceza, Cebri İcra, İptal, Tazminat)."
           ]
         },
@@ -170,8 +211,28 @@ export const subjects: Subject[] = [
           }
         ]
       },
+      { 
+        name: 'Yasama', 
+        imageId: 'gk-yasama',
+        content: {
+          summary: "Türkiye'de yasama yetkisi Türk Milleti adına Türkiye Büyük Millet Meclisi'ne (TBMM) aittir. TBMM 600 milletvekilinden oluşur ve seçimler 5 yılda bir yapılır (Cumhurbaşkanlığı seçimi ile aynı gün). Milletvekili seçilme yaşı 18'dir. TBMM'nin görevleri arasında kanun yapmak, değiştirmek ve kaldırmak, para basılmasına karar vermek, savaş ilanına karar vermek ve genel-özel af ilan etmek (3/5 çoğunluk ile) yer alır. Milletvekilleri yasama sorumsuzluğu (söyledikleri sözler için dokunulamazlık) ve yasama dokunulmazlığı (suç işlediği iddiasıyla tutuklanamama) haklarına sahiptir.",
+          keyPoints: [
+            "Üye Tam Sayısı: 600 Milletvekili.",
+            "Seçim Dönemi: 5 Yıl.",
+            "Milletvekili Şartları: 18 yaş, T.C. vatandaşı, En az ilkokul mezunu, Askerlikle ilişiği olmamak.",
+            "Yasama Sorumsuzluğu: Mutlaktır, Meclis tarafından kaldırılamaz.",
+            "Yasama Dokunulmazlığı: Nispidir, Meclis tarafından kaldırılabilir.",
+            "Savaş İlanı: TBMM kararıyla olur.",
+            "Kanun Teklifi: En az bir milletvekilinin imzasıyla verilir."
+          ],
+          mnemonics: [
+            "MECLİS ÇOĞUNLUKLARI: Karar yeter sayısı üye tam sayısının 1/4'ünün 1 fazlasından az olamaz (151).",
+            "AF YETKİSİ: 3/5 çoğunluk (360 milletvekili).",
+            "ANAYASA DEĞİŞİKLİĞİ: 2/3 (400) doğrudan kabul, 3/5 (360) referandumlu kabul."
+          ]
+        }
+      },
       { name: 'Anayasa Hukukuna Giriş', imageId: 'gk-anayasa' },
-      { name: 'Yasama', imageId: 'gk-yasama' },
       { name: 'Yürütme', imageId: 'gk-yurutme' },
       { name: 'Yargı', imageId: 'gk-yargi' },
       { name: 'İdare Hukuku', imageId: 'gk-idare' },
