@@ -11,7 +11,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Packer, Document, Paragraph, HeadingLevel, TextRun, PageOrientation } from 'docx';
 import { saveAs } from 'file-saver';
 import { getTopicSummaryAction } from '@/app/actions';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { GenerateTopicSummaryOutput } from '@/ai/flows/generate-topic-summary';
 import { Loader2 } from 'lucide-react';
 
@@ -26,7 +26,12 @@ export default function TopicContent({ subject, topic, topicData }: { subject: s
   const [savedNotes, setSavedNotes] = useLocalStorage<SavedNote[]>('saved-notes', []);
   const [aiData, setAiData] = useState<GenerateTopicSummaryOutput | null>(null);
   const [aiLoading, setAiLoading] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const { toast } = useToast();
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const data = topicData.content || aiData;
 
@@ -45,7 +50,6 @@ export default function TopicContent({ subject, topic, topicData }: { subject: s
   };
 
   const generateWordDocument = () => {
-    const paragraphSpacing = { line: 360 };
     const docChildren: Paragraph[] = [
       new Paragraph({ text: topic, heading: HeadingLevel.TITLE, alignment: 'center', spacing: { after: 300 } }),
     ];
@@ -137,7 +141,7 @@ export default function TopicContent({ subject, topic, topicData }: { subject: s
         </Alert>
       )}
 
-      {data && (
+      {data && mounted && (
         <Accordion type="multiple" defaultValue={['summary', 'key-points']} className="w-full space-y-4">
           <AccordionItem value="summary" className="border rounded-lg bg-card">
             <AccordionTrigger className="px-6 text-lg"><div className='flex items-center gap-3'><FileText className="w-6 h-6 text-primary" /> Özet</div></AccordionTrigger>
@@ -174,6 +178,13 @@ export default function TopicContent({ subject, topic, topicData }: { subject: s
             </AccordionContent>
           </AccordionItem>
         </Accordion>
+      )}
+
+      {/* Hydration safety: render a static version if not mounted yet */}
+      {data && !mounted && (
+        <div className="space-y-4">
+          <div className="p-4 border rounded-lg bg-card">Yükleniyor...</div>
+        </div>
       )}
 
       {topicData.pastQuestions && topicData.pastQuestions.length > 0 && (
