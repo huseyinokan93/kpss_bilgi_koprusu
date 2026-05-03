@@ -7,9 +7,9 @@ import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 type SubjectPageProps = {
-  params: {
+  params: Promise<{
     subject: string;
-  };
+  }>;
 };
 
 export async function generateStaticParams() {
@@ -19,7 +19,8 @@ export async function generateStaticParams() {
 }
 
 export default async function SubjectPage({ params }: SubjectPageProps) {
-  const subject = subjects.find((s) => s.id === params.subject);
+  const { subject: subjectId } = await params;
+  const subject = subjects.find((s) => s.id === subjectId);
 
   if (!subject) {
     notFound();

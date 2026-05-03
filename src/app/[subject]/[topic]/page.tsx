@@ -1,4 +1,4 @@
-import { subjects, Topic } from '@/lib/data';
+import { subjects } from '@/lib/data';
 import { notFound } from 'next/navigation';
 import TopicContent from './components/topic-content';
 import { Separator } from '@/components/ui/separator';
@@ -6,14 +6,14 @@ import MnemonicGenerator from './components/mnemonic-generator';
 import { BrainCircuit } from 'lucide-react';
 
 type TopicPageProps = {
-  params: {
+  params: Promise<{
     subject: string;
     topic: string;
-  };
+  }>;
 };
 
 export async function generateStaticParams() {
-    const params: TopicPageProps['params'][] = [];
+    const params: { subject: string; topic: string; }[] = [];
     subjects.forEach(subject => {
         subject.topics.forEach(topic => {
             params.push({ subject: subject.id, topic: encodeURIComponent(topic.name) });
@@ -23,8 +23,9 @@ export async function generateStaticParams() {
 }
 
 export default async function TopicPage({ params }: TopicPageProps) {
-  const decodedTopic = decodeURIComponent(params.topic);
-  const subject = subjects.find((s) => s.id === params.subject);
+  const { subject: subjectId, topic: topicName } = await params;
+  const decodedTopic = decodeURIComponent(topicName);
+  const subject = subjects.find((s) => s.id === subjectId);
   const topicData = subject?.topics.find((t) => t.name === decodedTopic);
   
   if (!subject || !topicData) {

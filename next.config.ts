@@ -27,6 +27,7 @@ const nextConfig: NextConfig = {
   },
   
   experimental: {
+    // Next.js 15 dev origins stability
     allowedDevOrigins: [
       '6000-firebase-studio-1777488117354.cluster-2nmnojxdmnfh2vwda4kd7uoumu.cloudworkstations.dev',
       '9000-firebase-studio-1777488117354.cluster-2nmnojxdmnfh2vwda4kd7uoumu.cloudworkstations.dev'
